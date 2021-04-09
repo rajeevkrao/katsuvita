@@ -22,16 +22,26 @@ body {
 }
 
 .card-title{
-	font-size:1em;
+	font-size:1.5rem;
 }
 
 .card-text{
-	font-size:0.5em;
+	font-size:1rem;
+}
+
+@media(max-width: 768px){
+	.card-title{
+		font-size:1rem;
+	}
+
+	.card-text{
+		font-size:.5rem;
+	}
 }
 
 .header{
 	color:var(--green);
-	font-size: 3em;
+	font-size: 3rem;
 	font-family: Goudy Sans;
 }
 
