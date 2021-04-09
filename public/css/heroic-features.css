@@ -1,0 +1,98 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+:root{
+  --orange:#F17D4C;
+  --green:#00A551;
+  --redd:#B62A2D;
+  --cream:#b6b454;
+}
+@font-face {
+    font-family: Goudy Sans;
+    src: url("/fonts/ITC Goudy Sans Black Italic.otf") format("opentype");
+}
+body {
+  padding-top: 56px;
+}
+
+.navbar-brand img{
+  height:4vmax;
+}
+
+.card-title{
+	font-size:1em;
+}
+
+.card-text{
+	font-size:0.5em;
+}
+
+.header{
+	color:var(--green);
+	font-size: 3em;
+	font-family: Goudy Sans;
+}
+
+.grid{
+	max-width:100%;
+}
+
+.header span{
+	color:var(--red);	
+}
+
+.grid img{
+	height:15vmax;
+}
+
+.metals img{
+	height:25vmax;
+}
+
+.renrg img{
+	height:40vmax;
+}
+
+.oils img{
+	height:25vmax;
+}
+
+nav{
+	/*background-color: #f8bea6*/
+}
+
+.jumbo{
+	/*background-color:rgba(0, 165, 81, 0.2);*/
+}
+
+.jumbotron{
+	padding-top: 0;
+	background-color: rgba(0,0,0,0);
+}
+
+.display-3{
+	font-family: Goudy Sans;
+}
+
+.display-3 span:nth-child(1){
+	color: var(--green);
+}
+/*.display-3 span:nth-child(2){
+	color: var(--orange);
+}*/
+.display-3 span:nth-child(2){
+	color: var(--red);
+}
+.display-3 span:nth-child(3){
+	color: var(--red);
+}
+.display-3 span:nth-child(4){
+	color: var(--red);
+}
+
+.grid{
+	display: inline-flex;
+  	overflow-x: auto;
+}
