@@ -25,11 +25,24 @@ body {
 	font-size:1.5rem;
 }
 
+
 .card-text{
 	font-size:1rem;
 }
 
+.agri .item{
+	margin:0 2vmax;
+}
+
+.agri .card{
+	width:25vmax;
+}
+
 @media(max-width: 768px){
+	.agri .card,.metals .card,.oils .card{
+		/*height:40vmax !important;*/
+		width:25vmax;
+	}
 	.card-title{
 		font-size:1rem;
 	}
@@ -50,15 +63,32 @@ body {
 }
 
 .header span{
-	color:var(--red);	
+	color:var(--orange);	
 }
 
+@media(max-width: 768px){
+	.grid img{
+		height:10vmax;
+	}
+
+	.metals img{
+		height:15vmax;
+	}
+
+	.renrg img{
+		height:35vmax;
+	}
+
+	.oils img{
+		height:20vmax;
+	}
+}
 .grid img{
 	height:15vmax;
 }
 
 .metals img{
-	height:25vmax;
+	height:20vmax;
 }
 
 .renrg img{
@@ -89,20 +119,27 @@ nav{
 .display-3 span:nth-child(1){
 	color: var(--green);
 }
-/*.display-3 span:nth-child(2){
-	color: var(--orange);
-}*/
 .display-3 span:nth-child(2){
-	color: var(--red);
+	color: var(--orange);
 }
 .display-3 span:nth-child(3){
-	color: var(--red);
+	color: var(--orange);
 }
 .display-3 span:nth-child(4){
-	color: var(--red);
+	color: var(--orange);
 }
 
 .grid{
 	display: inline-flex;
   	overflow-x: auto;
+}
+
+#contact{
+	display:flex;
+	justify-content: space-between;
+}
+
+#contact .copy{
+	display:block;
+	/*margin:auto 0 !important;*/
 }
