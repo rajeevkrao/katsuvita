@@ -135,11 +135,30 @@ nav{
 }
 
 #contact{
-	display:flex;
+	/*display:flex;
 	justify-content: space-between;
+	align-items: center;*/
 }
 
+
 #contact .copy{
-	display:block;
 	/*margin:auto 0 !important;*/
 }
+
+#contact .bg-dark{
+	color:white;
+}
+
+#contact .bg-dark .container > h2{
+
+}
+
+#contact .bg-dark .container h5,img{
+	height:1.5em;
+}
+
+
+#contact p{
+	margin:auto 0;
+}
+
